@@ -1,1 +1,1 @@
-![Homepage](v2-hp.png)
+![Homepage](/v2-hp.png)
