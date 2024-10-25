@@ -12,7 +12,7 @@ const About = () => {
         <h1 className="text-white text-[40px] font-extralight">About</h1>
       </div>
 
-      <div className="w-[70%] mt-60 grid grid-cols-1 md:grid-cols-2 gap-x-28 items-start justify-center mx-auto">
+      <div className="w-[80%] mt-60 grid grid-cols-1 md:grid-cols-2 gap-x-28 items-start justify-center mx-auto">
         <div>
             <div className="flex items-center justify-center gap-32">
                 <div className="flex gap-20">
@@ -20,7 +20,7 @@ const About = () => {
                 <a href="https://www.linkedin.com/in/ramiaemidashler" target='_blank' rel='noopener noreferrer'><FaLinkedin size={30} className="hover:text-[#7dd3fc] cursor-pointer" /></a>
                 </div>
 
-            <img src="/IMG_4211.PNG" alt="Emi" className="w-56 h-60 object-cover rounded-xl"/>
+            <img src="/me-img.png" alt="Emi" className="w-56 h-60 object-cover rounded-xl"/>
 
                 <div className="flex gap-20">
                 <a href="https://www.instagram.com/emi.dashler" target='_blank' rel='noopener noreferrer'><FaInstagram size={30} className="hover:text-[#f9a8d4] cursor-pointer"/></a>
