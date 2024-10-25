@@ -16,15 +16,15 @@ const About = () => {
         <div>
             <div className="flex items-center justify-center gap-32">
                 <div className="flex gap-20">
-                <a href="https://github.com/dashleremi" target='_blank' rel='noopener noreferrer'><FaGithub size={30} className="hover:text-[#7a7a7a] cursor-pointer" /></a>
-                <a href="https://www.linkedin.com/in/ramiaemidashler" target='_blank' rel='noopener noreferrer'><FaLinkedin size={30} className="hover:text-[#7dd3fc] cursor-pointer" /></a>
+                <a href="https://github.com/dashleremi" target='_blank' rel='noopener noreferrer'><FaGithub size={30} className="hover:text-[#7a7a7a] cursor-pointer hover:scale-150 transition-all duration-500" /></a>
+                <a href="https://www.linkedin.com/in/ramiaemidashler" target='_blank' rel='noopener noreferrer'><FaLinkedin size={30} className="hover:text-[#7dd3fc] cursor-pointer hover:scale-150 transition-all duration-500" /></a>
                 </div>
 
             <img src="/me-img.png" alt="Emi" className="w-56 h-60 object-cover rounded-xl"/>
 
                 <div className="flex gap-20">
-                <a href="https://www.instagram.com/emi.dashler" target='_blank' rel='noopener noreferrer'><FaInstagram size={30} className="hover:text-[#f9a8d4] cursor-pointer"/></a>
-                <a href="https://open.spotify.com/user/kdb6pye33fsroyo3og0i8ijz5" target='_blank' rel='noopener noreferrer'><AiOutlineSpotify size={30} className="hover:text-[#6ee7b7] cursor-pointer"/></a>
+                <a href="https://www.instagram.com/emi.dashler" target='_blank' rel='noopener noreferrer'><FaInstagram size={30} className="hover:text-[#f9a8d4] cursor-pointer hover:scale-150 transition-all duration-500"/></a>
+                <a href="https://open.spotify.com/user/kdb6pye33fsroyo3og0i8ijz5" target='_blank' rel='noopener noreferrer'><AiOutlineSpotify size={30} className="hover:text-[#6ee7b7] cursor-pointer hover:scale-150 transition-all duration-500"/></a>
                 </div>
 
         </div>
