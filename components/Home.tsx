@@ -29,7 +29,7 @@ const Home = () => {
         <div className="flex items-center justify-center gap-72">
           <p className="text-3xl line-effect">about</p>
           <p className="text-3xl line-effect">skills</p>
-          <p className="text-8xl text-[#ffffff] font-bold w-[350px] h-[300px] rounded-[100px] bg-[#c8c8c839] items-center text-center justify-center flex">
+          <p className="text-8xl text-[#ffffff] font-bold w-[350px] h-[300px] rounded-[100px] bg-[#c8c8c839] items-center text-center justify-center flex hover:scale-150 transition-all duration-500">
             Aloha
           </p>
           <p className="text-3xl line-effect">experience</p>
