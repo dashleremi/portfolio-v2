@@ -5,6 +5,7 @@ import TextEffect from "./TextEffect";
 
 const Home = () => {
     const [isHovered, setIsHovered] = useState(false);
+
   return (
     <div>
       <div className="absolute top-5 right-5 text-[25px] w-100 h-100 py-3 px-3 rounded-full border-t border border-[#e1e1e1] bg-white"><PiChatsTeardropThin color="#d0d0d0" size={50}/></div>
@@ -31,17 +32,17 @@ const Home = () => {
         <div className="flex items-center justify-center gap-72">
           <p className="text-3xl line-effect">about</p>
           <p className="text-3xl line-effect">skills</p>
-          <div className={`text-8xl text-[#ffffff] font-bold w-[350px] h-[300px] rounded-[100px] bg-[#c8c8c839] flex items-center justify-center transition-all duration-500
-            ${isHovered ? 'w-[1050px]' : ''}`}
-            onMouseEnter={() => setIsHovered(true)}
-            onMouseLeave={() => setIsHovered(false)}>
-            {!isHovered ? ( 
-                <p>Aloha</p>
-            ) : (
-                <TextEffect/>
-            )}
-          </div>
-          <p className="text-3xl line-effect">experience</p>
+            <div className={`text-8xl text-[#ffffff] font-bold h-[300px] rounded-[100px] bg-[#c8c8c839] flex items-center justify-center transition-all duration-500
+                ${isHovered ? 'w-[1050px]' : 'w-[350px]'}`}
+                onMouseEnter={() => setIsHovered(true)}
+                onMouseLeave={() => setIsHovered(false)}>
+                {!isHovered ? ( 
+                    <p>Aloha</p>
+                ) : (
+                    <TextEffect/>
+                )}
+            </div>
+          <p className="text-3xl line-effect">resume</p>
           <p className="text-3xl line-effect">projects</p>
         </div>
       </div>

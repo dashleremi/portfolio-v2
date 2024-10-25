@@ -1,8 +1,9 @@
 import About from '@/components/About'
-import Experience from '@/components/Experience'
+import Resume from '@/components/Resume'
 import Home from '@/components/Home'
 import Skills from '@/components/Skills'
 import React from 'react'
+import Projects from '@/components/Projects'
 
 const index = () => {
   return (
@@ -10,7 +11,8 @@ const index = () => {
       <Home/>
       <About/>
       <Skills/>
-      <Experience/>
+      <Resume/>
+      <Projects/>
     </div>
   )
 }
