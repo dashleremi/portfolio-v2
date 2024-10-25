@@ -7,7 +7,7 @@ const Home = () => {
     const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div>
+    <div id="home">
       <div className="absolute top-5 right-5 text-[25px] w-100 h-100 py-3 px-3 rounded-full border-t border border-[#e1e1e1] bg-white"><PiChatsTeardropThin color="#d0d0d0" size={50}/></div>
 
       <h1 className="absolute left-16 text-[#000000] text-[250px] tracking-wide font-bold font-secondary opacity-5">
