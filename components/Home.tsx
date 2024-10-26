@@ -14,7 +14,7 @@ const Home = () => {
         RAMIAEMI
       </h1>
       <div className="bottom-40">
-        <h1 className="absolute left-32 top-12 text-[#000000] text-[250px] tracking-wide font-bold font-secondary">
+        <h1 className="absolute left-32 top-12 text-[#000000] text-[250px] tracking-wide font-bold font-secondary text-tracking">
           RAMIAEMI
         </h1>
       </div>
@@ -23,16 +23,17 @@ const Home = () => {
         DASHLER
       </h1>
       <div className="-right-10">
-        <h1 className="absolute bottom-10 right-32 text-[#000000] text-[250px] tracking-wide font-bold font-secondary">
+        <h1 className="absolute bottom-10 right-32 text-[#000000] text-[250px] tracking-wide font-bold font-secondary text-tracking">
           DASHLER
         </h1>
+
       </div>
 
       <div className="flex items-center justify-center h-screen">
         <div className="flex items-center justify-center gap-72">
-          <p className="text-3xl line-effect">about</p>
-          <p className="text-3xl line-effect">skills</p>
-            <div className={`text-8xl text-[#ffffff] font-bold h-[300px] rounded-[100px] bg-[#c8c8c839] flex items-center justify-center transition-all duration-500
+          <p className="text-3xl line-effect roll-in-left">about</p>
+          <p className="text-3xl line-effect roll-in-left">skills</p>
+            <div className={`text-8xl text-[#ffffff] font-bold h-[300px] rounded-[100px] bg-[#c8c8c839] flex items-center justify-center transition-all duration-500 heartbeat
                 ${isHovered ? 'w-[1050px]' : 'w-[350px]'}`}
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}>
@@ -42,8 +43,8 @@ const Home = () => {
                     <TextEffect/>
                 )}
             </div>
-          <p className="text-3xl line-effect">resume</p>
-          <p className="text-3xl line-effect">projects</p>
+          <p className="text-3xl line-effect roll-in-right">resume</p>
+          <p className="text-3xl line-effect roll-in-right">projects</p>
         </div>
       </div>
     </div>
