@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
+      <link rel="icon" href="/logo.png"/>
       <body className="font-primary bg-[#f5f5f4]">
         <Main />
         <NextScript />
