@@ -6,6 +6,7 @@
 @-webkit-keyframes roll-in-left{0%{-webkit-transform:translateX(-800px) rotate(-540deg);transform:translateX(-800px) rotate(-540deg);opacity:0}100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}}@keyframes roll-in-left{0%{-webkit-transform:translateX(-800px) rotate(-540deg);transform:translateX(-800px) rotate(-540deg);opacity:0}100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}}
 @-webkit-keyframes roll-in-right{0%{-webkit-transform:translateX(800px) rotate(540deg);transform:translateX(800px) rotate(540deg);opacity:0}100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}}@keyframes roll-in-right{0%{-webkit-transform:translateX(800px) rotate(540deg);transform:translateX(800px) rotate(540deg);opacity:0}100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}}
 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -36,8 +37,8 @@ html {
 }
 
 .heartbeat {
-	-webkit-animation: heartbeat 1.5s steps(2, end) 5 2s both;
-	        animation: heartbeat 1.5s steps(2, end) 5 2s both;
+	-webkit-animation: heartbeat 1.5s steps(2, end) 5 3s both;
+	        animation: heartbeat 1.5s steps(2, end) 5 3s both;
 }
 
 .roll-in-left {
@@ -49,3 +50,4 @@ html {
 	-webkit-animation: roll-in-right 1.5s ease-out 1s both;
 	        animation: roll-in-right 1.5s ease-out 1s both;
 }
+
