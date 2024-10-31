@@ -1,4 +1,3 @@
-import About from '@/components/About'
 import Resume from '@/components/Resume'
 import Home from '@/components/Home'
 import Skills from '@/components/Skills'
@@ -9,7 +8,8 @@ const index = () => {
   return (
     <div className='overflow-x-hidden'>
       <Home/>
-      <About/>
+      {/* <About/> */}
+      
       <Skills/>
       <Resume/>
       <Projects/>

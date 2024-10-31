@@ -1,54 +1,25 @@
-import React, { useState } from "react";
-import { PiChatsTeardropThin } from "react-icons/pi";
-import TextEffect from "./TextEffect";
-
+import React from 'react'
 
 const Home = () => {
-    const [isHovered, setIsHovered] = useState(false);
-
   return (
-    <div id="home">
-      <div className="absolute top-5 right-5 text-[25px] w-100 h-100 py-3 px-3 rounded-full border-t border border-[#e1e1e1] bg-white"><PiChatsTeardropThin color="#d0d0d0" size={50}/></div>
-
-      <h1 className="absolute left-16 text-[#000000] text-[250px] tracking-wide font-bold font-secondary opacity-5">
-        RAMIAEMI
-      </h1>
-      <div className="bottom-40">
-        <h1 className="absolute left-32 top-12 text-[#000000] text-[250px] tracking-wide font-bold font-secondary text-tracking">
-          RAMIAEMI
-        </h1>
-      </div>
-
-      <h1 className="absolute bottom-0 right-10 text-[#000000] text-[250px] tracking-wide font-bold font-secondary opacity-5">
-        DASHLER
-      </h1>
-      <div className="-right-10">
-        <h1 className="absolute bottom-10 right-32 text-[#000000] text-[250px] tracking-wide font-bold font-secondary text-tracking">
-          DASHLER
-        </h1>
-
-      </div>
-
-      <div className="flex items-center justify-center h-screen">
-        <div className="flex items-center justify-center gap-72">
-          <p className="text-3xl line-effect roll-in-left">about</p>
-          <p className="text-3xl line-effect roll-in-left">skills</p>
-            <div className={`text-8xl text-[#ffffff] font-bold h-[300px] rounded-[100px] bg-[#c8c8c839] flex items-center justify-center transition-all duration-500 heartbeat
-                ${isHovered ? 'w-[1050px]' : 'w-[350px]'}`}
-                onMouseEnter={() => setIsHovered(true)}
-                onMouseLeave={() => setIsHovered(false)}>
-                {!isHovered ? ( 
-                    <p>Aloha</p>
-                ) : (
-                    <TextEffect/>
-                )}
-            </div>
-          <p className="text-3xl line-effect roll-in-right">resume</p>
-          <p className="text-3xl line-effect roll-in-right">projects</p>
+    <div className='mt-10'>
+      <div className='px-10 py-3 container mx-auto flex items-center justify-between rounded-full border border-t border-[#000000] w-[50%]'>
+        <div>
+          <a href="" className='hover:font-bold'>Home</a>
+        </div>
+        <div className='flex items-center gap-10'>
+          <a href="" className='hover:font-bold'>Projects</a>
+          <a href="" className='hover:font-bold'>Resume</a>
+          <a href="" className='hover:font-bold'>Contact</a>
         </div>
       </div>
+      <div className='mt-40 w-[40%] flex items-center justify-between mx-auto'>
+        <h1 className='text-2xl tracking-in-expand-fwd-top'>driven by curiosity</h1>
+        <h1 className='text-2xl tracking-in-expand-fwd-top'>powered by creativity</h1>
+      </div>
+      <div className='mt-40 text-center text-6xl font-semibold'>designing and developing for tomorrow.</div>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
