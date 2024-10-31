@@ -3,21 +3,14 @@ import React from 'react'
 const Home = () => {
   return (
     <div className='mt-10'>
-      <div className='px-10 py-3 container mx-auto flex items-center justify-between rounded-full border border-t border-[#000000] w-[50%]'>
-        <div>
-          <a href="" className='hover:font-bold'>Home</a>
+      <div className='mt-52'>
+        <div className='flex items-center justify-center gap-48 mx-auto text-2xl'>
+          <h2 className='scale-in-center'>driven by curiosity</h2>
+          <p>-</p>
+          <h2 className='scale-in-center'>powered by creativity</h2>
         </div>
-        <div className='flex items-center gap-10'>
-          <a href="" className='hover:font-bold'>Projects</a>
-          <a href="" className='hover:font-bold'>Resume</a>
-          <a href="" className='hover:font-bold'>Contact</a>
-        </div>
+        <div className='mt-52 text-center text-7xl font-bold'><span className='bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text bg-300% animate-gradient'>designing and developing for tomorrow.</span></div>
       </div>
-      <div className='mt-40 w-[40%] flex items-center justify-between mx-auto'>
-        <h1 className='text-2xl tracking-in-expand-fwd-top'>driven by curiosity</h1>
-        <h1 className='text-2xl tracking-in-expand-fwd-top'>powered by creativity</h1>
-      </div>
-      <div className='mt-40 text-center text-6xl font-semibold'>designing and developing for tomorrow.</div>
     </div>
   )
 }
