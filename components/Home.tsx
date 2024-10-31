@@ -1,15 +1,24 @@
 import React from 'react'
+import TextEffect from './TextEffect'
+import { RxDoubleArrowDown } from "react-icons/rx";
+import NavBar from './NavBar';
+
 
 const Home = () => {
   return (
-    <div className='mt-10'>
-      <div className='mt-52'>
-        <div className='flex items-center justify-center gap-48 mx-auto text-2xl'>
-          <h2 className='scale-in-center'>driven by curiosity</h2>
-          <p>-</p>
-          <h2 className='scale-in-center'>powered by creativity</h2>
+    <div id='home' className='text-center'>
+      <NavBar/>
+      <div className='mt-60'>
+        <div className='grid grid-cols-2 items-center justify-between px-80'>
+          <div><h2 className='font-bold text-3xl'>Ramiaemi Dashler</h2></div>
+          <div><h2><TextEffect/></h2></div>
         </div>
-        <div className='mt-52 text-center text-7xl font-bold'><span className='bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text bg-300% animate-gradient'>designing and developing for tomorrow.</span></div>
+        <div className='mt-60 text-7xl font-bold'><span className='bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text bg-300% animate-gradient'>designing and developing for tomorrow.</span></div>
+        <p className='mt-20 text-xl'>driven by curisosity, powered by creativity</p>
+
+        <div className='flex justify-center mt-96'>
+          <RxDoubleArrowDown size={50} color='#4b5563' className='heartbeat'/>
+        </div>
       </div>
     </div>
   )

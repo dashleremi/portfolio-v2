@@ -16,7 +16,7 @@ import {
     FaSketch } from 'react-icons/fa';
 
 import { 
-    SiTypescript, 
+    //SiTypescript, 
     SiMongodb, 
     SiPytorch, 
     SiCplusplus, 

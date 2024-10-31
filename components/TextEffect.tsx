@@ -5,19 +5,19 @@ const TextEffect = () => {
     <div>
         <TypeAnimation
         sequence={[
-            'software engineer',
-            1000,
-            'frontend developer',
-            1000,
+            'product designer',
+            1500,
             'ux/ui designer',
-            1000,
+            1500,
             'web developer',
-            1000,
+            1500,
+            'software engineer',
+            1500,
             'graphic designer',
-            1000
+            1500
         ]}
-        speed={80}
-        className='text-8xl text-[#00000098] font-bold lowercase'
+        speed={50}
+        className='text-3xl bg-gradient-to-r from-orange-950 via-blue-900 to-green-800 text-transparent bg-clip-text font-bold lowercase'
         repeat={Infinity}
         />    
     </div>
