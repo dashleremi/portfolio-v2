@@ -3,6 +3,7 @@ import Home from '@/components/Home'
 //import Skills from '@/components/Skills'
 import React from 'react'
 import Projects from '@/components/Projects'
+import Footer from '@/components/Footer'
 
 const index = () => {
   return (
@@ -14,7 +15,7 @@ const index = () => {
       {/* <Skills/> */}
       {/* <Resume/> */}
       
-      
+      <Footer/>
     </div>
   )
 }

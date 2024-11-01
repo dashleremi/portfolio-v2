@@ -38,9 +38,9 @@ html {
     -webkit-animation: animatedgradient 4s ease infinite alternate;
     -moz-animation: animatedgradient 4s ease infinite alternate;
     animation: animatedgradient 4s ease infinite alternate;
-  }
+}
   
-  @keyframes animatedgradient {
+@keyframes animatedgradient {
     0% {
       background-position: 0% 50%;
     }
@@ -50,4 +50,5 @@ html {
     100% {
       background-position: 0% 50%;
     }
-  }
+}
+
