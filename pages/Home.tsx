@@ -1,7 +1,7 @@
 import React from 'react'
-import TextEffect from './TextEffect'
+import TextEffect from '../components/TextEffect'
 import { RxDoubleArrowDown } from "react-icons/rx";
-import NavBar from './NavBar';
+import NavBar from '../components/NavBar';
 
 
 const Home = () => {

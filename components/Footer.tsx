@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 import { FaGithub, FaLinkedin, FaMailBulk } from "react-icons/fa";
 
@@ -6,17 +7,17 @@ const Footer = () => {
     <section className='bg-[#ffffff94] border-t border-[#9f9f9f3b]'>
         <div className='max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8'>
             <nav className='flex flex-wrap justify-center -mx-5 -my-2'>
-                <div className='px-10 py-2 hover:font-bold'>
-                    <a href="">Home</a>
+                <div className='px-10 py-2 font-bold'>
+                    <Link href="/home">Home</Link>
                 </div>
-                <div className='px-10 py-2 hover:font-bold'>
-                    <a href="">About</a>
+                <div className='px-10 py-2 font-bold'>
+                    <Link href="/about">About</Link>
                 </div>
-                <div className='px-10 py-2 hover:font-bold'>
-                    <a href="">Projects</a>
+                <div className='px-10 py-2 font-bold'>
+                    <Link href="/projects">Projects</Link>
                 </div>
-                <div className='px-10 py-2 hover:font-bold'>
-                    <a href="">Resume</a>
+                <div className='px-10 py-2 font-bold'>
+                    <Link href="/resume">Resume</Link>
                 </div>
             </nav>
 
