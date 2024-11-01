@@ -1,6 +1,6 @@
 import React from "react";
 
-const Projects = () => {
+const SelectedWorks = () => {
   return (
     <div className="flex items-center justify-center">
     <div className="mt-40 mb-20">
@@ -78,4 +78,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default SelectedWorks;
