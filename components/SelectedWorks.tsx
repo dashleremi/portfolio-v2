@@ -17,7 +17,7 @@ const SelectedWorks = () => {
               <p className="mb-10">A comprehensive school management dashboard offering tailored access for admins, teachers, students, and parents.
                 Available in English and Japanese.
               </p>
-              <a href="/jsintl"><img src="j-intl.png" alt="" /></a>
+              <a href="/jsintl"><img src="j-intl.png" alt="" className="hover:scale-150 transition-all duration-500" /></a>
             </div>
             <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
               <div className="h-full w-6 flex items-center justify-center">
@@ -38,7 +38,7 @@ const SelectedWorks = () => {
             <div className="bg-[#d1d1d12b] col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-sm">
               <h3 className="text-xl font-bold mb-5">Chanel et moi <span className="font-normal">(Internship)</span></h3>
               <p className="mb-10">Luxurious, user-centric web experience blending elegant design with intuitve navigation to highlight brand's commitment.</p>
-              <a href="/chemoi"><img src="cem.png" alt="" /></a>
+              <a href="/chemoi"><img src="cem.png" alt="" className="hover:scale-150 transition-all duration-500" /></a>
             </div>
           </div>
 
@@ -47,7 +47,7 @@ const SelectedWorks = () => {
             <div className="bg-[#d1d1d12b] col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-sm">
               <h3 className="text-xl font-bold mb-5">Sugar Sugar Hawaii <span className="font-normal">(Volunteer)</span></h3>
               <p className="mb-10">An online boutique offering trendy jewelry, accessories, and fashion items with a focus on vibrant, island-inspired designs.</p>
-              <a href="/ssh"><img src="ssh.png" alt="" /></a>
+              <a href="/ssh"><img src="ssh.png" alt="" className="hover:scale-150 transition-all duration-500"/></a>
             </div>
             <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
               <div className="h-full w-6 flex items-center justify-center">
@@ -68,7 +68,7 @@ const SelectedWorks = () => {
             <div className="bg-[#d1d1d12b] col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-sm">
               <h3 className="text-xl font-bold mb-5">Anthropologie <span className="font-normal">(Internship)</span></h3>
               <p className="mg-10">Suite of high-performance, responsive web applications designed to boost user engagement and streamline workflows across devices.</p>
-              <a href="/anthro"><img src="anthro-hp.png" alt="" /></a>
+              <a href="/anthro"><img src="anthro-hp.png" alt="" className="hover:scale-150 transition-all duration-500" /></a>
             </div>
           </div>
         </div>

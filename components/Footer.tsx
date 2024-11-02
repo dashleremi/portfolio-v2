@@ -7,16 +7,16 @@ const Footer = () => {
     <section className='bg-[#ffffff94] border-t border-[#9f9f9f3b]'>
         <div className='max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8'>
             <nav className='flex flex-wrap justify-center -mx-5 -my-2'>
-                <div className='px-10 py-2 font-bold'>
+                <div className='px-10 py-2'>
                     <Link href="/home">Home</Link>
                 </div>
-                <div className='px-10 py-2 font-bold'>
+                <div className='px-10 py-2'>
                     <Link href="/about">About</Link>
                 </div>
-                <div className='px-10 py-2 font-bold'>
+                <div className='px-10 py-2'>
                     <Link href="/projects">Projects</Link>
                 </div>
-                <div className='px-10 py-2 font-bold'>
+                <div className='px-10 py-2'>
                     <Link href="/resume">Resume</Link>
                 </div>
             </nav>
