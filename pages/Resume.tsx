@@ -1,5 +1,6 @@
 import Footer from '@/components/Footer'
 import NavBar from '@/components/NavBar'
+import Link from 'next/link'
 import React from 'react'
 
 const Resume = () => {
@@ -58,7 +59,7 @@ const Resume = () => {
             </div>
 
             <p className='mt-40 text-2xl uppercase font-bold'>Experience</p>
-            <a href="">
+            <Link href="/project1">
               <div className='mt-10 flex items-center justify-between glassmorphism-container p-10 hover:bg-[#d2d2d23f] transition-all duration-300'>
                 <div>
                   <h2 className='font-bold text-2xl mb-5'>J's International School</h2>
@@ -67,9 +68,9 @@ const Resume = () => {
                 </div>
                 <img src="js.png" alt="" className='w-[80px] h-[80px] opacity-50'/>
               </div>
-            </a>
+            </Link>
 
-            <a href="">
+            <Link href="/project2">
               <div className='mt-10 flex items-center justify-between glassmorphism-container p-10 hover:bg-[#d2d2d23f] transition-all duration-300'>
                 <div>
                   <h2 className='font-bold text-2xl mb-5'>Hawaii Technology Development Corporation</h2>
@@ -78,20 +79,20 @@ const Resume = () => {
                 </div>
                 <img src="htdc.png" alt="" className='w-[90px] h-[90px] opacity-50'/>
               </div>
-            </a>
+            </Link>
 
-            <a href="">
+            <Link href="/project3">
               <div className='mt-10 flex items-center justify-between glassmorphism-container p-10 hover:bg-[#d2d2d23f] transition-all duration-300'>
                 <div>
                   <h2 className='font-bold text-2xl mb-5'>CHANEL</h2>
                   <p className='text-xl'>May 2023 - Oct 2023</p>
                   <p className='mt-5'>Maintained design documentation and style guides across multiple projects, modernized UX/UI designs using Adobe XD  <br /> and Figma, and conducted user research to improve usability.</p>
                 </div>
-                <img src="chanel.png" alt="" className='w-[150px] h-[90px] -mr-10 opacity-50'/>
+                <img src="chanel.png" alt="" className='w-[150px] h-[90px] -mr-8 opacity-50'/>
               </div>
-            </a>
+            </Link>
 
-            <a href="">
+            <Link href="/project4">
               <div className='mt-10 flex items-center justify-between glassmorphism-container p-10 hover:bg-[#d2d2d23f] transition-all duration-300'>
                 <div>
                   <h2 className='font-bold text-2xl mb-5'>Anthropologie</h2>
@@ -100,7 +101,7 @@ const Resume = () => {
                 </div>
                 <img src="anthro.png" alt="" className='w-[70px] h-[70px] mr-3 opacity-50'/>
               </div>
-            </a>
+            </Link>
 
           </div>
         </section>
