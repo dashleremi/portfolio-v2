@@ -70,8 +70,7 @@ const Resume = () => {
               </div>
             </Link>
 
-            <Link href="/project2">
-              <div className='mt-10 flex items-center justify-between glassmorphism-container p-10 hover:bg-[#d2d2d23f] transition-all duration-300'>
+              <div className='mt-10 flex items-center justify-between glassmorphism-container p-10'>
                 <div>
                   <h2 className='font-bold text-2xl mb-5'>Hawaii Technology Development Corporation</h2>
                   <p className='text-xl'>Nov 2023 - Aug 2024</p>
@@ -79,9 +78,9 @@ const Resume = () => {
                 </div>
                 <img src="htdc.png" alt="" className='w-[90px] h-[90px] opacity-50'/>
               </div>
-            </Link>
 
-            <Link href="/project3">
+
+            <Link href="/project2">
               <div className='mt-10 flex items-center justify-between glassmorphism-container p-10 hover:bg-[#d2d2d23f] transition-all duration-300'>
                 <div>
                   <h2 className='font-bold text-2xl mb-5'>CHANEL</h2>
