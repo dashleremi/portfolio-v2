@@ -14,7 +14,7 @@ const Projects = () => {
                     <p className='mt-20 text-2xl uppercase font-bold'>Case Studies</p>
                 </div>
 
-                <div className='grid grid-cols-2 items-center justify-center mt-20'>
+                <div className='grid grid-cols-2 items-center justify-center mt-20 gap-10'>
                     <div className='glassmorphism-container'>
                         <h1>Mint Case Study</h1>
                     </div>

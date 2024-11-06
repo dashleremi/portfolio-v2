@@ -1,5 +1,6 @@
 import Footer from '@/components/Footer'
 import NavBar from '@/components/NavBar'
+import Image from 'next/image'
 import React from 'react'
 
 const project4 = () => {
@@ -9,7 +10,7 @@ const project4 = () => {
         <div className="flex flex-col items-center justify-center min-h-screen">
             <h1 className="text-[#c9ce48] text-4xl text-center font-extralight mb-8 mt-20">Employee Training Apps</h1>
             <div className="flex justify-center">
-                <img src="anthro-hp.png" alt="School Dashboard" className="w-[1200px] h-auto hover:scale-105 transition-all duration-700" />
+                <Image src="/anthro-hp.png" alt="School Dashboard" className="h-auto hover:scale-105 transition-all duration-700" width={1000} height={700}/>
             </div>
             <div className='flex items-center justify-center gap-20 mt-10 text-xl font-bold'><p>Anthropologie</p><p>Honolulu, HI</p></div>
             

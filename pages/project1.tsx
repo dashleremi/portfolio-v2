@@ -1,5 +1,6 @@
 import Footer from '@/components/Footer'
 import NavBar from '@/components/NavBar'
+import Image from 'next/image'
 import React from 'react'
 
 const project1 = () => {
@@ -9,7 +10,7 @@ const project1 = () => {
         <div className="flex flex-col items-center justify-center min-h-screen">
             <h1 className="text-[#5c488a] text-4xl text-center font-extralight mb-8">School Management Dashboard</h1>
             <div className="flex justify-center">
-                <img src="j-intl.png" alt="School Dashboard" className="w-[90%] max-w-[1300px] h-auto hover:scale-105 transition-all duration-700" />
+                <Image src="/j-intl.png" alt="School Dashboard" className="w-[90%] max-w-[1300px] h-auto hover:scale-105 transition-all duration-700" width={900} height={600}/>
             </div>
             <div className='flex items-center justify-center gap-20 mt-10 text-xl font-bold'><p>J&apos;s International School</p><p>Tokyo, JP</p></div>
             
