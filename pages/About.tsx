@@ -12,10 +12,10 @@ const About = () => {
           <h1 className='text-white text-[40px] font-extralight'>About</h1>
 
           <br />
-          <p className='mt-20 text-3xl'>Ramiaemi <span className='text-5xl font-bold mr-10 ml-10'>"<span className='bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text bg-300%'>Emi</span>"</span>  Dashler</p>
+          <p className='mt-20 text-3xl'>Ramiaemi <span className='text-5xl font-bold mr-10 ml-10'>&quot;<span className='bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text bg-300%'>Emi</span>&quot;</span>  Dashler</p>
           <div>
             <h3 className='uppercase mt-40 text-[#939393]'>background</h3>
-            <p className='mt-10 text-xl'>I hold a degree in computer science and am currently pursuing a dual master's degree <br /> in computer science specializing in AI, and research design and analysis.</p>
+            <p className='mt-10 text-xl'>I hold a degree in computer science and am currently pursuing a dual master&apos;s degree <br /> in computer science specializing in AI, and research design and analysis.</p>
           </div>
 
           <div className='mt-40'>
@@ -25,14 +25,14 @@ const About = () => {
 
             <br /><br />
             <p>When I first encountered programming and UX/UI design in middle school, something clicked. The realization that I could bring an idea to life with a few lines of code felt magical,<br /> like discovering a new language that could shape reality.
-            I knew, right then, that I’d found my path. Through the years, I honed my skills, diving into every opportunity to blend artistry with logic, <br />
+            I knew, right then, that I had found my path. Through the years, I honed my skills, diving into every opportunity to blend artistry with logic, <br />
             heart with innovation. The field became not only my career choice but a deeply personal calling - one where I could transform imagination into tangible, user-centered experiences. </p>
 
             <br /><br />
             <p>In an industry where voices sometimes echo the notion that women face limitations, I stand as proof to the contrary. <br />
-            From creating immersive, user-friendly designs at Chanel to engineering complex, dynamic applications for clients worldwide, I’ve dedicated myself to pushing boundaries and challenging stereotypes. <br />
+            From creating immersive, user-friendly designs at Chanel to engineering complex, dynamic applications for clients worldwide, I have dedicated myself to pushing boundaries and challenging stereotypes. <br />
             Today, with expertise across JavaScript, React, Figma, and more, I approach each project as a chance to craft meaningful digital experiences that resonate with users and bring them joy. <br /> 
-            For me, this work isn’t just about technology; it’s about showing the world that passion and commitment transcend any barrier.</p>
+            For me, this work is not just about technology; it&apos;s about showing the world that passion and commitment transcend any barrier.</p>
           </div>
 
           <br /><br /><br />

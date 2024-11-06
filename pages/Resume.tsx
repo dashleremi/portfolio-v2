@@ -62,7 +62,7 @@ const Resume = () => {
             <Link href="/project1">
               <div className='mt-10 flex items-center justify-between glassmorphism-container p-10 hover:bg-[#d2d2d23f] transition-all duration-300'>
                 <div>
-                  <h2 className='font-bold text-2xl mb-5'>J's International School</h2>
+                  <h2 className='font-bold text-2xl mb-5'>J&apos;s International School</h2>
                   <p className='text-xl'>Sep 2024 - Oct 2024</p>
                   <p className='mt-5'>Designed and developed the frontend/UI for a school management dashboard, incorporating both English and Japanese<br /> language support for seamless user experience across regions.</p>
                 </div>

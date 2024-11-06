@@ -12,6 +12,7 @@ const NavBar = () => {
             <Link href='/about' className='hover:font-bold'>About</Link>
             <Link href="/projects" className='hover:font-bold'>Projects</Link>
             <Link href="/resume" className='hover:font-bold'>Resume</Link>
+            <Link href="/contact" className='hover:font-bold'>Contact</Link>
             </div>
         </div>
     </div>

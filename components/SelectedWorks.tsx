@@ -38,7 +38,7 @@ const SelectedWorks = () => {
             </div>
             <div className="bg-[#d1d1d12b] col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-sm">
               <h3 className="text-xl font-bold mb-5">Chanel et moi <span className="font-normal">(Internship)</span></h3>
-              <p className="mb-10">Luxurious, user-centric web experience blending elegant design with intuitve navigation to highlight brand's commitment.</p>
+              <p className="mb-10">Luxurious, user-centric web experience blending elegant design with intuitve navigation to highlight brand&apos;s commitment.</p>
               <Link href="/project2"><img src="cem.png" alt="" className="hover:scale-150 transition-all duration-500" /></Link>
             </div>
           </div>
