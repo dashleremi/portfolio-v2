@@ -19,7 +19,7 @@ const Projects = () => {
                         <h1>Mint Case Study</h1>
                     </div>
                     <div>
-                        <h1>Netflix Redesign</h1>
+                        <h1>Netflix Redesign, Case Study</h1>
                     </div>
                 </div>
 
