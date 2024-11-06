@@ -9,10 +9,10 @@ const NavBar = () => {
             <Link id='' href="/home" className='hover:font-bold'>Home</Link>
             </div>
             <div className='flex items-center gap-10'>
-            <Link href="/about" className='hover:font-bold'>About</Link>
+            <Link href="/aboutme" className='hover:font-bold'>About</Link>
             <Link href="/projects" className='hover:font-bold'>Projects</Link>
             <Link href="/myresume" className='hover:font-bold'>Resume</Link>
-            <Link href="/contact" className='hover:font-bold'>Contact</Link>
+            <Link href="/contactme" className='hover:font-bold'>Contact</Link>
             </div>
         </div>
     </div>
