@@ -5,10 +5,10 @@ import { FaInstagram, FaSpotify } from "react-icons/fa";
 
 const About = () => {
   return (
-    <div>
+    <div id='about'>
       <div className='mt-10 flex items-center justify-center text-center'>
         <NavBar/>
-        <section id='about' className='mt-32'>
+        <section className='mt-32'>
           <h1 className='text-white text-[40px] font-extralight'>About</h1>
 
           <br />

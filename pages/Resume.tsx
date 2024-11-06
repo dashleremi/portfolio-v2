@@ -6,11 +6,11 @@ import React from 'react'
 
 const Resume = () => {
   return (
-    <div>
+    <div id='resume'>
       <NavBar/>
       <div className='mt-10 mb-40'>
         
-        <section id='resume' className='mt-40'>
+        <section className='mt-40'>
           <h1 className='text-white text-[40px] text-center font-extralight'>Resume</h1>
           <div className='w-[60%] grid grid-cols-1 items-start mx-auto'>
             <p className='mt-20 text-2xl uppercase font-bold'>Education</p>
