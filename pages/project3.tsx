@@ -9,7 +9,7 @@ const project3 = () => {
         <div className="flex flex-col items-center justify-center min-h-screen">
             <h1 className="text-[#bd53cd] text-4xl text-center font-extralight mb-8">E-Commerce Website</h1>
             <div className="flex justify-center">
-                <img src="ssh.png" alt='' className="w-[90%] max-w-[1300px] h-auto hover:scale-150 transition-all duration-700" />
+                <img src="ssh.png" alt='' className="w-[90%] max-w-[1300px] h-auto hover:scale-105 transition-all duration-700" />
             </div>
             <div className='flex items-center justify-center gap-20 mt-10 text-xl font-bold'><p>Sugar Sugar Hawaii, LLC</p><p>Honolulu, HI</p></div>
             

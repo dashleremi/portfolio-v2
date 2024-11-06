@@ -9,9 +9,9 @@ const project1 = () => {
         <div className="flex flex-col items-center justify-center min-h-screen">
             <h1 className="text-[#5c488a] text-4xl text-center font-extralight mb-8">School Management Dashboard</h1>
             <div className="flex justify-center">
-                <img src="j-intl.png" alt="School Dashboard" className="w-[90%] max-w-[1300px] h-auto hover:scale-150 transition-all duration-700" />
+                <img src="j-intl.png" alt="School Dashboard" className="w-[90%] max-w-[1300px] h-auto hover:scale-105 transition-all duration-700" />
             </div>
-            <div className='flex items-center justify-center gap-20 mt-10 text-xl font-bold'><p>J's International School</p><p>Tokyo, JP</p></div>
+            <div className='flex items-center justify-center gap-20 mt-10 text-xl font-bold'><p>J&apos;s International School</p><p>Tokyo, JP</p></div>
             
         </div>
         <hr className="w-[80%] mx-auto my-8 border-t-2 border-gray-200" />

@@ -2,11 +2,13 @@ import React from 'react'
 import TextEffect from '../components/TextEffect'
 import { RxDoubleArrowDown } from "react-icons/rx";
 import NavBar from '../components/NavBar';
+import Footer from '@/components/Footer'
+import SelectedWorks from '@/components/SelectedWorks'
 
 
-const Home = () => {
+const home = () => {
   return (
-    <div id='home' className='text-center'>
+    <div id='index' className='text-center'>
       <NavBar/>
       <div className='mt-60'>
         <div className='grid grid-cols-2 items-center justify-between px-80'>
@@ -20,8 +22,10 @@ const Home = () => {
           <RxDoubleArrowDown size={50} color='#4b5563' className='heartbeat'/>
         </div>
       </div>
+      <SelectedWorks/>
+      <Footer/>
     </div>
   )
 }
 
-export default Home
+export default home
