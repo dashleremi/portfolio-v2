@@ -8,7 +8,7 @@ const contact = () => {
         <h1 className='text-white text-[40px] font-extralight'>Contact</h1>
         </div>
 
-        <div className=''>
+        <div>
             <ContactForm/>
         </div>
     </div>
