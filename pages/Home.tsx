@@ -8,7 +8,7 @@ import SelectedWorks from '@/components/SelectedWorks'
 
 const home = () => {
   return (
-    <div id='index' className='text-center'>
+    <div id='home' className='text-center'>
       <NavBar/>
       <div className='mt-60'>
         <div className='grid grid-cols-2 items-center justify-between px-80'>
