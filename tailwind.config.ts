@@ -13,7 +13,7 @@ module.exports = {
       fontFamily: {
         primary: ["Italiana"],
         secondary: ["Bodoni Moda"]
-      }
+      },
     },
   },
   plugins: [],
