@@ -12,14 +12,6 @@ html {
     scroll-behavior: smooth;
 }
 
-@layer components {
-    .line-effect {
-        @apply relative font-extralight text-black cursor-pointer text-xl w-fit md:block after:block after:content-['']
-        after:absolute after:h-[3px] after:bg-[#b9bcc663] after:w-full after:scale-x-0 after:hover:scale-x-100
-        after:transition after:duration-200 after:origin-center hidden
-    }
-}
-
 .glassmorphism-container {
     background: rgba(255, 255, 255, 0.043);
     backdrop-filter: blur(5px);
