@@ -8,16 +8,16 @@ const Footer = () => {
         <div className='max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8'>
             <nav className='flex flex-wrap -mx-5 -my-2'>
                 <div className='px-10 py-2'>
-                    <Link href="/homepage" className='hover:font-bold'>Home</Link>
+                    <Link href="/homepage" className='hover:font-bold transition-all duration-300'>Home</Link>
                 </div>
                 <div className='px-10 py-2'>
-                    <Link href="/aboutme" className='hover:font-bold'>About</Link>
+                    <Link href="/aboutme" className='hover:font-bold transition-all duration-300'>About</Link>
                 </div>
                 <div className='px-10 py-2'>
-                    <Link href="/projects" className='hover:font-bold'>Projects</Link>
+                    <Link href="/projects" className='hover:font-bold transition-all duration-300'>Projects</Link>
                 </div>
                 <div className='px-10 py-2'>
-                    <Link href="/myresume" className='hover:font-bold'>Resume</Link>
+                    <Link href="/myresume" className='hover:font-bold transition-all duration-300'>Resume</Link>
                 </div>
             </nav>
 
