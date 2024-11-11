@@ -4,10 +4,14 @@ import SelectedWorks from '@/components/SelectedWorks'
 import TextEffect from '../components/TextEffect'
 import { RxDoubleArrowDown } from "react-icons/rx";
 import NavBar from '../components/NavBar';
+import { Helmet } from 'react-helmet';
 
 const index = () => {
   return (
     <div className='overflow-x-hidden'>
+      <Helmet>
+        <title>Home</title>
+      </Helmet>
       <div id='home' className='text-center'>
         <NavBar/>
         <div className='mt-60'>

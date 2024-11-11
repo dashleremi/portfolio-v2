@@ -1,12 +1,16 @@
 import Footer from '@/components/Footer'
 import NavBar from '@/components/NavBar'
 import React from 'react'
+import { Helmet } from 'react-helmet';
 import { FaInstagram, FaSpotify } from "react-icons/fa";
 
 const About = () => {
   return (
     <div id='about'>
       <div className='mt-10 flex items-center justify-center text-center'>
+      <Helmet>
+        <title>About</title>
+      </Helmet>
         <NavBar/>
         <section className='mt-32'>
           <h1 className='text-white text-[40px] font-extralight'>About</h1>

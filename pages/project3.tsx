@@ -2,10 +2,14 @@ import Footer from '@/components/Footer'
 import NavBar from '@/components/NavBar'
 import Image from 'next/image'
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 const project3 = () => {
   return (
     <div>
+      <Helmet>
+        <title>Sugar Sugar Hawaii</title>
+      </Helmet>
         <NavBar/>
         <div className="flex flex-col items-center justify-center min-h-screen">
             <h1 className="text-[#bd53cd] text-4xl text-center font-extralight mb-8">E-Commerce Website</h1>

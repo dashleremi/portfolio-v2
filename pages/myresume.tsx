@@ -3,10 +3,14 @@ import NavBar from '@/components/NavBar'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 const Resume = () => {
   return (
     <div id='resume'>
+        <Helmet>
+          <title>Resume</title>
+        </Helmet>
       <NavBar/>
       <div className='mt-10 mb-40'>
         

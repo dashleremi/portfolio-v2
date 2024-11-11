@@ -1,9 +1,13 @@
 import NavBar from '@/components/NavBar'
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 const MileScape = () => {
   return (
     <div>
+      <Helmet>
+        <title>MileScape</title>
+      </Helmet>
         <NavBar/>
         <div className="w-full h-[80vh] opacity-30 bg-cover bg-center" style={{ backgroundImage: "url('/plane.png')", }}></div>
 

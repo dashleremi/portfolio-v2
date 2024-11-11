@@ -4,11 +4,15 @@ import { RxDoubleArrowDown } from "react-icons/rx";
 import NavBar from '../components/NavBar';
 import Footer from '@/components/Footer'
 import SelectedWorks from '@/components/SelectedWorks'
+import { Helmet } from 'react-helmet';
 
 
 const home = () => {
   return (
     <div id='index' className='text-center'>
+      <Helmet>
+        <title>Home</title>
+      </Helmet>
       <NavBar/>
       <div className='mt-60'>
         <div className='grid grid-cols-2 items-center justify-between px-80'>
