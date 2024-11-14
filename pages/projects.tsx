@@ -54,6 +54,7 @@ const Projects = () => {
                     </div>
                 </div>
 
+                {/* 
                 <div className='grid grid-cols-1 items-start mx-auto rounded-md'>
                     <p className='mt-20 text-2xl uppercase font-bold'>Case Studies</p>
                 </div>
@@ -75,6 +76,7 @@ const Projects = () => {
                         <p>coming soon...</p>
                     </div>
                 </div>
+                */}
             </div>
             </section>
         </div>
