@@ -34,13 +34,13 @@ const MileScape = () => {
         </div>
 
         <div className="mt-40 w-full h-[60vh] bg-white bg-cover bg-center flex items-center justify-center">
-            <div className='grid grid-cols-6 justify-center text-center gap-20 opacity-70'>
-                <div className="bg-black shadow-[0px_0px_0px_2px_white] rounded-[28px] p-2 w-[min(250px)] aspect-[1/2] relative mx-auto" style={{ backgroundColor: 'hsl(0, 0%, 0%)', }}></div>
-                <div className="bg-black shadow-[0px_0px_0px_2px_white] rounded-[28px] p-2 w-[min(250px)] aspect-[1/2] relative mx-auto" style={{ backgroundColor: 'hsl(0, 0%, 0%)', }}></div>
-                <div className="bg-black shadow-[0px_0px_0px_2px_white] rounded-[28px] p-2 w-[min(250px)] aspect-[1/2] relative mx-auto" style={{ backgroundColor: 'hsl(0, 0%, 0%)', }}></div>
-                <div className="bg-black shadow-[0px_0px_0px_2px_white] rounded-[28px] p-2 w-[min(250px)] aspect-[1/2] relative mx-auto" style={{ backgroundColor: 'hsl(0, 0%, 0%)', }}></div>
-                <div className="bg-black shadow-[0px_0px_0px_2px_white] rounded-[28px] p-2 w-[min(250px)] aspect-[1/2] relative mx-auto" style={{ backgroundColor: 'hsl(0, 0%, 0%)', }}></div>
-                <div className="bg-black shadow-[0px_0px_0px_2px_white] rounded-[28px] p-2 w-[min(250px)] aspect-[1/2] relative mx-auto" style={{ backgroundColor: 'hsl(0, 0%, 0%)', }}></div>
+            <div className='grid grid-cols-6 items-center justify-center text-center gap-10 opacity-30'>
+                <div className="bg-black shadow-[0px_0px_0px_2px_white] rounded-[28px] p-2 w-[min(230px)] aspect-[1/2] relative mx-auto" style={{ backgroundColor: 'hsl(0, 0%, 0%)', }}></div>
+                <div className="bg-black shadow-[0px_0px_0px_2px_white] rounded-[28px] p-2 w-[min(230px)] aspect-[1/2] relative mx-auto" style={{ backgroundColor: 'hsl(0, 0%, 0%)', }}></div>
+                <div className="bg-black shadow-[0px_0px_0px_2px_white] rounded-[28px] p-2 w-[min(230px)] aspect-[1/2] relative mx-auto" style={{ backgroundColor: 'hsl(0, 0%, 0%)', }}></div>
+                <div className="bg-black shadow-[0px_0px_0px_2px_white] rounded-[28px] p-2 w-[min(230px)] aspect-[1/2] relative mx-auto" style={{ backgroundColor: 'hsl(0, 0%, 0%)', }}></div>
+                <div className="bg-black shadow-[0px_0px_0px_2px_white] rounded-[28px] p-2 w-[min(230px)] aspect-[1/2] relative mx-auto" style={{ backgroundColor: 'hsl(0, 0%, 0%)', }}></div>
+                <div className="bg-black shadow-[0px_0px_0px_2px_white] rounded-[28px] p-2 w-[min(230px)] aspect-[1/2] relative mx-auto" style={{ backgroundColor: 'hsl(0, 0%, 0%)', }}></div>
             </div>
         </div>
     </div>
