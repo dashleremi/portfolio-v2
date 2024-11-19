@@ -39,18 +39,18 @@ const MileScape = () => {
 
         <div className='mt-40 grid justify-center text-center'>
           <div>
-            <h1 className='uppercase font-bold text-xl'>r e s e a r c h + d e v e l o p m e n t</h1>
+            <h1 className='uppercase font-bold text-2xl'>r e s e a r c h + d e v e l o p m e n t</h1>
             <hr className="w-full border-t-2 border-gray-200 mt-2 mb-20" />
           </div>
 
           <div className='mt-10'>
-          <h1 className='uppercase font-medium'>i n i t i a l t h o u g h t s + m o t i v e s</h1>
+          <h1 className='uppercase font-medium text-xl gap-2'>t h o u g h t s + m o t i v e s</h1>
           <hr className="w-full border-t-2 border-gray-200 mt-2 mb-10" />
           <p>Traveling frequently as an international student has turned the airport journey, from booking to boarding, into a daunting process. <br /> How can we make flying enjoyable again?</p>
           </div>
 
           <div className='mt-20'>
-          <h1 className='uppercase font-medium'>f i n d i n g s</h1>
+          <h1 className='uppercase font-medium text-xl'>f i n d i n g s</h1>
           <hr className="w-full border-t-2 border-gray-200 mt-2 mb-10" />
           <p>Through interviews and other methods, I discovered that most people worry about missing their flight. <br /> Three interviewees had missed flights before, and all participants reported experiencing pre-boarding anxiety.</p>
           <div className='grid grid-cols-4 mt-40 gap-72 text-7xl'>
