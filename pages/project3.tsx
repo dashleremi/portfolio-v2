@@ -28,7 +28,7 @@ const project3 = () => {
                 <div className="grid grid-cols-4 gap-10 w-full text-center">
                     <div>
                         <h2 className='mb-2 font-bold'>Timeline</h2>
-                        <p>01/2021 - 07/2022</p>
+                        <p>01/2022 - 07/2022</p>
                         <p>Volunteer Work</p>
                     </div>
                     <div>

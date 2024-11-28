@@ -99,34 +99,6 @@ const Projects = () => {
                 </div>
               </Link>
             </div>
-
-            {/* 
-                <div className='glassmorphism-container'>
-                        <h1 className='font-bold text-lg mb-5'>CoinFuse</h1>
-                        <p>Real-Time Data, Smarter Crypto Management!</p>
-                    </div>
-                <div className='grid grid-cols-1 items-start mx-auto rounded-md'>
-                    <p className='mt-20 text-2xl uppercase font-bold'>Case Studies</p>
-                </div>
-
-                <div className='grid grid-cols-2 items-center justify-center mt-20 gap-10'>
-                    <div className='glassmorphism-container'>
-                        <h1 className='font-bold text-lg'>Mint Case Study</h1>
-                        <p>coming soon...</p>
-                    </div>
-                    <div className='glassmorphism-container'>
-                        <h1 className='font-bold text-lg'>Netflix Redesign, Case Study</h1>
-                        <p>coming soon...</p>
-                    </div>
-                </div>
-
-                <div className='grid grid-cols-1 items-center jutify-center mt-20'>
-                    <div className='glassmorphism-container'>
-                        <h1 className='font-bold text-lg'>Coding with kids</h1>
-                        <p>coming soon...</p>
-                    </div>
-                </div>
-                */}
           </div>
         </section>
       </div>
