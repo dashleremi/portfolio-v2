@@ -83,7 +83,7 @@ const Projects = () => {
 
             <div className="grid grid-cols-2 items-center justify-center mt-20 gap-10">
               <Link href="/milescape">
-                <div className="glassmorphism-container">
+                <div className="glassmorphism-container p-5">
                   <h1 className="font-bold text-lg mb-5">MileScape</h1>
                   <p>
                     Rack Up Miles, Rise on the Leaderboard, and Relive Every
