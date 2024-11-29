@@ -12,8 +12,6 @@ const TextEffect = () => {
             'web developer',
             1500,
             'software engineer',
-            1500,
-            'graphic designer',
             1500
         ]}
         speed={50}
