@@ -14,7 +14,7 @@ const Projects = () => {
       <NavBar />
       <div className="mt-10 mb-40">
         <section id="projects" className="mt-40">
-          <h1 className="text-white text-[40px] text-center font-extralight">
+          <h1 className="text-white text-[40px] text-center font-secondary font-extralight">
             Projects
           </h1>
 

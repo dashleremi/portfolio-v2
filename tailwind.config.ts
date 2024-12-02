@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        primary: ["Italiana"],
+        primary: ["Orienta"],
         secondary: ["Bodoni Moda"]
       },
     },

@@ -15,7 +15,7 @@ const TextEffect = () => {
             1500
         ]}
         speed={50}
-        className='text-3xl bg-gradient-to-r from-orange-950 via-blue-900 to-green-800 text-transparent bg-clip-text font-bold lowercase'
+        className='text-3xl bg-gradient-to-r from-orange-950 via-blue-900 to-green-800 text-transparent bg-clip-text font-secondary font-bold lowercase'
         repeat={Infinity}
         />    
     </div>

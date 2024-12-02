@@ -12,7 +12,7 @@ const project1 = () => {
       </Helmet>
         <NavBar/>
         <div className="flex flex-col items-center justify-center min-h-screen">
-            <h1 className="text-[#5c488a] text-4xl text-center font-extralight mb-8">School Management Dashboard</h1>
+            <h1 className="text-[#5c488a] text-4xl text-center font-secondary font-extralight mb-8">School Management Dashboard</h1>
             <div className="flex justify-center">
                 <Image src="/j-intl.png" alt="School Dashboard" className="w-[90%] max-w-[1300px] h-auto hover:scale-105 transition-all duration-700" width={900} height={600}/>
             </div>

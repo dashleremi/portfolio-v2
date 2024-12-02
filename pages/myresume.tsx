@@ -15,7 +15,7 @@ const Resume = () => {
       <div className='mt-10 mb-40'>
         
         <section className='mt-40'>
-          <h1 className='text-white text-[40px] text-center font-extralight'>Resume</h1>
+          <h1 className='text-white text-[40px] text-center font-secondary font-extralight'>Resume</h1>
           
           <div className='w-[60%] grid grid-cols-1 items-center mx-auto'>
             <p className='mt-20 text2xl uppercase font-bold text-2xl'>Skills</p>
@@ -95,7 +95,7 @@ const Resume = () => {
               <div className='mt-10 flex items-center justify-between glassmorphism-container p-10 hover:bg-[#d2d2d23f] transition-all duration-300'>
                 <div>
                   <h2 className='font-bold text-2xl mb-2'>J&apos;s International School</h2>
-                  <p>Frontend/UI Developer</p>
+                  <p>Frontend Developer & UX/UI Designer</p>
                   <p className='text-xl mt-5'>Sep 2024 - Oct 2024</p>
                   <p className='mt-5'>Designed and developed the frontend/UI for a school management dashboard, incorporating both English and Japanese<br /> language support for seamless user experience across regions.</p>
                 </div>
@@ -106,7 +106,7 @@ const Resume = () => {
               <div className='mt-10 flex items-center justify-between glassmorphism-container p-10'>
                 <div>
                   <h2 className='font-bold text-2xl mb-2'>Hawaii Technology Development Corporation</h2>
-                  <p>Software Engineer Intern</p>
+                  <p>Software Engineer + UI Developer Intern</p>
                   <p className='text-xl mt-5'>Nov 2023 - Aug 2024</p>
                   <p className='mt-5'>Developed front-end components using HTML, CSS, React, and TypeScript, ensuring cross-browser compatibility and <br /> seamless  integration  with backend systems.</p>
                 </div>
@@ -118,7 +118,7 @@ const Resume = () => {
               <div className='mt-10 flex items-center justify-between glassmorphism-container p-10 hover:bg-[#d2d2d23f] transition-all duration-300'>
                 <div>
                   <h2 className='font-bold text-2xl mb-2'>CHANEL</h2>
-                  <p>UX/UI Design Intern</p>
+                  <p>UX/UI Research & Design Intern</p>
                   <p className='text-xl mt-5'>May 2023 - Oct 2023</p>
                   <p className='mt-5'>Maintained design documentation and style guides across multiple projects, modernized UX/UI designs using Adobe XD  <br /> and Figma, and conducted user research to improve usability.</p>
                 </div>
@@ -130,7 +130,7 @@ const Resume = () => {
               <div className='mt-10 flex items-center justify-between glassmorphism-container p-10 hover:bg-[#d2d2d23f] transition-all duration-300'>
                 <div>
                   <h2 className='font-bold text-2xl mb-2'>Anthropologie</h2>
-                  <p>Frontend Development Intern</p>
+                  <p>Software Development Engineer (Frontend) Intern</p>
                   <p className='text-xl mt-5'>Aug 2022 - May 2023</p>
                   <p className='mt-5'>Redesigned and optimized responsive web applications using HTML, CSS, JavaScript, and Vue.js, collaborating with product <br /> managers and  engineers to deliver scalable, user-friendly tools.</p>
                 </div>

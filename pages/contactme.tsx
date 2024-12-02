@@ -9,7 +9,7 @@ const contact = () => {
         <title>Contact</title>
       </Helmet>
         <div className='mt-10 flex items-center justify-center text-center'>
-        <h1 className='text-white text-[40px] font-extralight'>Contact</h1>
+        <h1 className='text-white text-[40px] font-secondary font-extralight'>Contact</h1>
         </div>
 
         <div>

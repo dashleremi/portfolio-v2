@@ -12,7 +12,7 @@ const project2 = () => {
       </Helmet>
         <NavBar/>
         <div className="flex flex-col items-center justify-center min-h-screen">
-            <h1 className="text-[#0b0b0d] text-4xl text-center font-extralight mb-8">Repair Service Page</h1>
+            <h1 className="text-[#0b0b0d] text-4xl text-center font-secondary font-extralight mb-8">Repair Service Page</h1>
             <div className="flex justify-center">
                 <Image src="/cem.png" alt="School Dashboard" className="h-auto hover:scale-105 transition-all duration-700" width={800} height={600}/>
             </div>

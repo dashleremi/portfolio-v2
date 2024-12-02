@@ -13,7 +13,7 @@ const About = () => {
       </Helmet>
         <NavBar/>
         <section className='mt-32'>
-          <h1 className='text-white text-[40px] font-extralight'>About</h1>
+          <h1 className='text-white text-[40px] font-secondary font-extralight'>About</h1>
 
           <br />
           <p className='mt-20 text-3xl'>Ramiaemi <span className='text-5xl font-bold mr-10 ml-10'>&quot;<span className='bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text bg-300%'>Emi</span>&quot;</span>  Dashler</p>
